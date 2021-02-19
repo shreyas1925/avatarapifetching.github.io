@@ -1,0 +1,99 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Langar", cursive;
+}
+
+.containerss {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.main_div {
+  width: 800px;
+  height: 690px;
+}
+
+.under_div {
+  width: 500px;
+  height: 400px;
+}
+
+.under_div input {
+  padding: 7px 7px;
+  width: 60%;
+  text-align: center;
+  border: 1px;
+  border-radius: 12px;
+}
+button {
+  padding: 7px 7px;
+  border: 1px;
+  border-radius: 10px;
+}
+
+@media (max-width: 520px) {
+  .heading {
+    font-size: 30px;
+  }
+  .under_div {
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    margin: 20px;
+  }
+  .under_div input {
+    padding: 7px 7px;
+    width: 40%;
+    text-align: center;
+    border: 1px;
+    border-radius: 12px;
+  }
+  .under_div img {
+    width: 400px;
+  }
+}
+@media (max-width: 400px) {
+  .heading {
+    font-size: 27px;
+  }
+  .under_div {
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    margin: 20px;
+  }
+  .under_div input {
+    padding: 6px 6px;
+    width: 40%;
+    text-align: center;
+    border: 1px;
+    border-radius: 12px;
+  }
+  .under_div img {
+    width: 350px;
+  }
+}
+@media (max-width: 345px) {
+  .heading {
+    font-size: 25px;
+  }
+  .under_div {
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    margin: 20px;
+  }
+  .under_div input {
+    padding: 6px 6px;
+    width: 40%;
+    font-size: 14px;
+    text-align: center;
+    border: 1px;
+    border-radius: 12px;
+  }
+  .under_div img {
+    width: 300px;
+  }
+}
